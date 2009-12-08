@@ -37,16 +37,7 @@
 - (void)handleButtonClick:(id)sender
 {
 	CameraViewDelegate *cvDelegate = [[CameraViewDelegate alloc]init];
-	UIActionSheet *popupQuery = [[UIActionSheet alloc]
-															 initWithTitle:@"Choose an Action"
-															 delegate:cvDelegate
-															 cancelButtonTitle:@"Cancel"
-															 destructiveButtonTitle:nil
-															 otherButtonTitles:@"Take a Video",@"Choose a Video",nil];
-	
-	popupQuery.actionSheetStyle = UIActionSheetStyleBlackOpaque;
-	[popupQuery showInView:self.view];
-	[popupQuery release];
+  [cvDelegate showActionSheet:(UIView*)self.view];
 }
 
 /*

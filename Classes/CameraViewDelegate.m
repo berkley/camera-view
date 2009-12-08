@@ -11,9 +11,25 @@
 
 @implementation CameraViewDelegate
 
+- (void)showActionSheet:(UIView *)view
+{
+	UIActionSheet *popupQuery = [[UIActionSheet alloc]
+															 initWithTitle:@"Choose an Action"
+															 delegate:self
+															 cancelButtonTitle:@"Cancel"
+															 destructiveButtonTitle:nil
+															 otherButtonTitles:@"Take a Video",@"Choose a Video",nil];
+	
+	popupQuery.actionSheetStyle = UIActionSheetStyleBlackOpaque;
+	[popupQuery showInView:view];
+	[popupQuery release];
+	
+}
+
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-	NSLog(@"Clicking button");
+	NSLog(@"Clicking button %i", buttonIndex);
+	
 }
 
 - (void)willPresentActionSheet:(UIActionSheet *)actionSheet

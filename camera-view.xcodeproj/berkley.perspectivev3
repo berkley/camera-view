@@ -361,7 +361,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>7E75658A10CF0F6200AE9547</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>asm objc_msgSend  0x96870670</string>
+								<string>asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x0081f000</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -369,11 +369,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>7E75658B10CF0F6200AE9547</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>asm objc_msgSend  0x96870670</string>
+										<string>asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x0081f000</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7E75664810CF1B0E00AE9547</string>
+										<string>7E75668710CF1EB900AE9547</string>
 										<key>history</key>
 										<array>
 											<string>7E75659E10CF118F00AE9547</string>
@@ -381,9 +381,9 @@
 											<string>7E7565B910CF13A300AE9547</string>
 											<string>7E7565EB10CF18C500AE9547</string>
 											<string>7E7565EC10CF18C500AE9547</string>
-											<string>7E7565ED10CF18C500AE9547</string>
-											<string>7E75662F10CF1AB100AE9547</string>
-											<string>7E75663B10CF1AE800AE9547</string>
+											<string>7E75667510CF1EA800AE9547</string>
+											<string>7E75667610CF1EA800AE9547</string>
+											<string>7E75667710CF1EA800AE9547</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -428,6 +428,19 @@
 											<string>7E75660810CF18C500AE9547</string>
 											<string>7E75662910CF1A7300AE9547</string>
 											<string>7E75663110CF1AB100AE9547</string>
+											<string>7E75664D10CF1D1000AE9547</string>
+											<string>7E75665510CF1E2800AE9547</string>
+											<string>7E75665610CF1E2800AE9547</string>
+											<string>7E75665710CF1E2800AE9547</string>
+											<string>7E75666510CF1E6A00AE9547</string>
+											<string>7E75666610CF1E6A00AE9547</string>
+											<string>7E75666710CF1E6A00AE9547</string>
+											<string>7E75666810CF1E6A00AE9547</string>
+											<string>7E75666910CF1E6A00AE9547</string>
+											<string>7E75667810CF1EA800AE9547</string>
+											<string>7E75667910CF1EA800AE9547</string>
+											<string>7E75667A10CF1EA800AE9547</string>
+											<string>7E75667B10CF1EA800AE9547</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -601,7 +614,7 @@
 						<key>Frame</key>
 						<string>{{0, 0}, {1440, 238}}</string>
 						<key>RubberWindowFrame</key>
-						<string>1 59 1440 819 0 0 1440 878 </string>
+						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -677,10 +690,10 @@
 							<key>Frame</key>
 							<string>{{702, 0}, {738, 260}}</string>
 							<key>RubberWindowFrame</key>
-							<string>1 59 1440 819 0 0 1440 878 </string>
+							<string>0 59 1440 819 0 0 1440 878 </string>
 						</dict>
 						<key>RubberWindowFrame</key>
-						<string>1 59 1440 819 0 0 1440 878 </string>
+						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -725,7 +738,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>282008334.67584097</real>
+	<real>282009273.39856702</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -745,7 +758,7 @@
 		<string>/Users/berkley/project/iphone/camera-view/camera-view.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1 59 1440 819 0 0 1440 878 </string>
+	<string>0 59 1440 819 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

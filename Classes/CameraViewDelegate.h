@@ -13,4 +13,6 @@
 
 }
 
+- (void)showActionSheet:(UIView *)view;
+
 @end
