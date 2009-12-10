@@ -7,8 +7,9 @@
 //
 
 #import "FlipsideViewController.h"
+#import "CameraViewProtocol.h"
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, CameraViewProtocol> {
 }
 
 - (IBAction)showInfo;

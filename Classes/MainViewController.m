@@ -12,6 +12,7 @@
 
 @implementation MainViewController
 
+CameraViewDelegate *cvDelegate;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
@@ -32,16 +33,23 @@
 	 
 	[self.view addSubview:button];
 
-	CameraViewDelegate *cvDelegate = [[CameraViewDelegate alloc]init];
+	cvDelegate = [[CameraViewDelegate alloc]init];
 	cvDelegate.viewController = self;
+	cvDelegate.delegate = self;
 	[cvDelegate showActionSheet];
- }
+}
  
 - (void)handleButtonClick:(id)sender
 {
-	CameraViewDelegate *cvDelegate = [[CameraViewDelegate alloc]init];
-	cvDelegate.viewController = self;
   [cvDelegate showActionSheet];
+}
+
+/*
+ * implement the CameraViewProtocol method
+ */
+- (void) didFinishPickingVideo:(NSURL *)url
+{
+	NSLog(@"URL returned from camera: %@", url.path);
 }
 
 /*

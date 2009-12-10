@@ -340,6 +340,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>7EE7669610D0AFF1009BBBC0</string>
 								<string>289233A00DB2D0730083E9F9</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
@@ -351,8 +352,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
 									<integer>7</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -374,7 +375,7 @@
 							<real>268</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 59 1440 819 0 0 1440 878 </string>
+						<string>-1 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -390,7 +391,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>7E75658A10CF0F6200AE9547</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CameraViewDelegate.m</string>
+								<string>MainViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -398,24 +399,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>7E75658B10CF0F6200AE9547</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CameraViewDelegate.m</string>
+										<string>MainViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7EE7665110D0A677009BBBC0</string>
+										<string>7EE766F710D0B895009BBBC0</string>
 										<key>history</key>
 										<array>
-											<string>7E7565AD10CF11F500AE9547</string>
 											<string>7E7565B910CF13A300AE9547</string>
-											<string>7E75671A10D03A5F00AE9547</string>
 											<string>7EE765DE10D0A139009BBBC0</string>
 											<string>7EE765F410D0A22E009BBBC0</string>
 											<string>7EE765F510D0A22E009BBBC0</string>
-											<string>7EE765F610D0A22E009BBBC0</string>
-											<string>7EE765F710D0A22E009BBBC0</string>
 											<string>7EE7663810D0A557009BBBC0</string>
 											<string>7EE7663A10D0A557009BBBC0</string>
-											<string>7EE7664A10D0A653009BBBC0</string>
+											<string>7EE7669F10D0B0B4009BBBC0</string>
+											<string>7EE766C910D0B60C009BBBC0</string>
+											<string>7EE766CA10D0B60C009BBBC0</string>
+											<string>7EE766CC10D0B60C009BBBC0</string>
+											<string>7EE766E510D0B761009BBBC0</string>
+											<string>7EE766F610D0B893009BBBC0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -429,18 +431,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1150, 490}}</string>
+								<string>{{0, 0}, {1150, 586}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 59 1440 819 0 0 1440 878 </string>
+								<string>-1 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>490pt</string>
+							<string>586pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>283pt</string>
+							<string>187pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -508,9 +510,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1150, 256}}</string>
+										<string>{{10, 27}, {1150, 160}}</string>
 										<key>RubberWindowFrame</key>
-										<string>0 59 1440 819 0 0 1440 878 </string>
+										<string>-1 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -659,11 +661,11 @@
 							<key>DebugVariablesTableConfiguration</key>
 							<array>
 								<string>Name</string>
-								<real>120</real>
+								<real>275</real>
 								<string>Value</string>
 								<real>85</real>
 								<string>Summary</string>
-								<real>508</real>
+								<real>353</real>
 							</array>
 							<key>Frame</key>
 							<string>{{702, 0}, {738, 283}}</string>
@@ -714,7 +716,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>282109559.12429798</real>
+	<real>282114197.14677298</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -734,7 +736,7 @@
 		<string>/Users/berkley/project/iphone/camera-view/camera-view.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 59 1440 819 0 0 1440 878 </string>
+	<string>-1 59 1440 819 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

@@ -46,6 +46,7 @@
 		7E7565E410CF161A00AE9547 /* CameraViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewDelegate.h; sourceTree = "<group>"; };
 		7E7565E510CF161A00AE9547 /* CameraViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewDelegate.m; sourceTree = "<group>"; };
 		7EE7662010D0A48C009BBBC0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7EE7669710D0B02A009BBBC0 /* CameraViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewProtocol.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* camera_view-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "camera_view-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +110,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7EE7669610D0AFF1009BBBC0 /* Protocols */,
 				289233A00DB2D0730083E9F9 /* Main View */,
 				281C6CD70DB2D82200F60ACC /* Flipside View */,
 				080E96DDFE201D6D7F000001 /* Application Delegate */,
@@ -149,6 +151,14 @@
 				7EE7662010D0A48C009BBBC0 /* MobileCoreServices.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EE7669610D0AFF1009BBBC0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7EE7669710D0B02A009BBBC0 /* CameraViewProtocol.h */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
