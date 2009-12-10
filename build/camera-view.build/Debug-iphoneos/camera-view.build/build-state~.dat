@@ -1,0 +1,441 @@
+Tcamera-view
+v7
+r0
+t282107960.077497
+cCheck dependencies
+cCpResource build/Debug-iphoneos/camera-view.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/Info.plist camera_view-Info.plist
+cCompileXIB /Users/berkley/project/iphone/camera-view/FlipsideView.xib
+cCompileXIB /Users/berkley/project/iphone/camera-view/MainView.xib
+cCompileXIB /Users/berkley/project/iphone/camera-view/MainWindow.xib
+cProcessPCH /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch.gch camera_view_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/main.o /Users/berkley/project/iphone/camera-view/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/camera_viewAppDelegate.o /Users/berkley/project/iphone/camera-view/Classes/camera_viewAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideView.o /Users/berkley/project/iphone/camera-view/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainView.o /Users/berkley/project/iphone/camera-view/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainViewController.o /Users/berkley/project/iphone/camera-view/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideViewController.o /Users/berkley/project/iphone/camera-view/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/CameraViewDelegate.o /Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view normal armv6
+cGenerateDSYMFile /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app.dSYM /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view
+cProcessProductPackaging "/Users/berkley/Library/MobileDevice/Provisioning Profiles/FD58C3C9-A138-44C0-85B0-95B3C0676989.mobileprovision" /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/embedded.mobileprovision
+cTouch /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view.xcent
+cCodeSign /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk
+c000000004ABDAC680000000000000110
+t1253944424
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+c000000004A767D3000000000000000DD
+t1249279280
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+c000000004A767D3000000000000001E5
+t1249279280
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A82198D00000000005F4900
+t1250040205
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A76566F0000000000501370
+t1249269359
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7656460000000000001355
+t1249269318
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E9C0000000000000788
+t1249668764
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6FEF0000000001B3F450
+t1249669103
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/usr/include/Availability.h
+c000000004A7658B400000000000019F9
+t1249269940
+s6649
+
+N/Users/berkley/Library/MobileDevice/Provisioning Profiles/FD58C3C9-A138-44C0-85B0-95B3C0676989.mobileprovision
+c000000004B0704860000000000002461
+t1258751110
+s9313
+
+N/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.h
+c000000004B200423000000000000016D
+t1260389411
+s365
+i<UIKit/UIKit.h>
+
+N/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m
+c000000004B2008D80000000000000BCE
+t1260390616
+s3022
+i"CameraViewDelegate.h"
+
+N/Users/berkley/project/iphone/camera-view/Classes/FlipsideView.h
+c000000004B1ED7D900000000000000B0
+t1260312537
+s176
+
+N/Users/berkley/project/iphone/camera-view/Classes/FlipsideView.m
+c000000004B1ED7D900000000000001B0
+t1260312537
+s432
+i"FlipsideView.h"
+
+N/Users/berkley/project/iphone/camera-view/Classes/FlipsideViewController.h
+c000000004B1ED7D90000000000000205
+t1260312537
+s517
+
+N/Users/berkley/project/iphone/camera-view/Classes/FlipsideViewController.m
+c000000004B1ED7D90000000000000444
+t1260312537
+s1092
+i"FlipsideViewController.h"
+
+N/Users/berkley/project/iphone/camera-view/Classes/MainView.h
+c000000004B1ED7D900000000000000C0
+t1260312537
+s192
+i<UIKit/UIKit.h>
+
+N/Users/berkley/project/iphone/camera-view/Classes/MainView.m
+c000000004B1EDC1800000000000001A6
+t1260313624
+s422
+i"MainView.h"
+
+N/Users/berkley/project/iphone/camera-view/Classes/MainViewController.h
+c000000004B1ED7D90000000000000120
+t1260312537
+s288
+i"FlipsideViewController.h"
+
+N/Users/berkley/project/iphone/camera-view/Classes/MainViewController.m
+c000000004B2003DA0000000000000A9C
+t1260389338
+s2716
+i"MainViewController.h"
+i"MainView.h"
+i"CameraViewDelegate.h"
+
+N/Users/berkley/project/iphone/camera-view/Classes/camera_viewAppDelegate.h
+c000000004B1ED7D900000000000001BB
+t1260312537
+s443
+
+N/Users/berkley/project/iphone/camera-view/Classes/camera_viewAppDelegate.m
+c000000004B1ED7D9000000000000032A
+t1260312537
+s810
+i"camera_viewAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/berkley/project/iphone/camera-view/FlipsideView.xib
+c000000004B1ED7D90000000000002688
+t1260312537
+s9864
+
+N/Users/berkley/project/iphone/camera-view/MainView.xib
+c000000004B1ED7D900000000000023C6
+t1260312537
+s9158
+
+N/Users/berkley/project/iphone/camera-view/MainWindow.xib
+c000000004B1ED7D90000000000001E20
+t1260312537
+s7712
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app
+t1260415160
+s408
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app.dSYM
+t1260415158
+s102
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/FlipsideView.nib
+t1260343661
+s1280
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/Info.plist
+t1260415152
+s645
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/MainView.nib
+t1260343661
+s1460
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/MainWindow.nib
+t1260343662
+s980
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/PkgInfo
+t1260415152
+s8
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/ResourceRules.plist
+t1260343661
+s485
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view
+t1260415158
+s27072
+
+N/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/embedded.mobileprovision
+t1260343664
+s9313
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/CameraViewDelegate.o
+t1260415157
+s46844
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideView.o
+t1260415157
+s9604
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideViewController.o
+t1260415157
+s32956
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainView.o
+t1260415157
+s9544
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainViewController.o
+t1260415157
+s37972
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/camera-view.LinkFileList
+c000000004B1F516C00000000000003C5
+t1260343660
+s965
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/camera_viewAppDelegate.o
+t1260415157
+s42540
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/main.o
+t1260415157
+s6548
+
+N/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view.xcent
+t1260415158
+s327
+
+N/Users/berkley/project/iphone/camera-view/camera_view_Prefix.pch
+c000000004B1ED7D90000000000000148
+t1260312537
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/berkley/project/iphone/camera-view/main.m
+c000000004B1ED7D90000000000000160
+t1260312537
+s352
+i<UIKit/UIKit.h>
+
+N/var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch.gch
+t1260415154
+s7876792
+
+Ncamera_view-Info.plist
+c000000004B1F512F0000000000000390
+t1260343599
+s912
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies282107952#282107952#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCodeSign /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app
+s282107958.352531
+e282107960.077338
+r1
+xCodeSign
+x/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app
+lSLF07#2@45"CodeSign build/Debug-iphoneos/camera-view.app282107958#282107960#0(0"0(0#0#78"/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app4300885448#678"    cd /Users/berkley/project/iphone/camera-view    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Chad Berkley (J247YF275X)" --resource-rules=/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/ResourceRules.plist --entitlements /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view.xcent /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app0#
+
+CCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/CameraViewDelegate.o /Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282107957.283501
+e282107957.443036
+r1
+xCompileC
+xbuild/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/CameraViewDelegate.o
+x/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m: In function '-[CameraViewDelegate actionSheet:clickedButtonAtIndex:]':
+o/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m:52: warning: unused variable 'movieType'
+o/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m:42: warning: unused variable 'availableSourceTypes'
+lSLF07#2@78"Compile /Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m282107957#282107957#0(378"/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m: In function '-[CameraViewDelegate actionSheet:clickedButtonAtIndex:]':/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m:52: warning: unused variable 'movieType'/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m:42: warning: unused variable 'availableSourceTypes'2(22@27"Unused variable 'movieType'282107957#143#112#0(6@70"/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m282083416#52#0#52#0#19"unused variable '*'0(22@38"Unused variable 'availableSourceTypes'282107957#255#123#0(6@70"/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m282083416#42#0#42#0#19"unused variable '*'0(0#0#70"/Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m4300885448#1873"    cd /Users/berkley/project/iphone/camera-view    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-generated-files.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-own-target-headers.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-all-target-headers.hmap -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-project-headers.hmap -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -I/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/include -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources/armv6 -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch -c /Users/berkley/project/iphone/camera-view/Classes/CameraViewDelegate.m -o /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/CameraViewDelegate.o0#
+
+CCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideView.o /Users/berkley/project/iphone/camera-view/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282107957.052901
+e282107957.112849
+r1
+xCompileC
+xbuild/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideView.o
+x/Users/berkley/project/iphone/camera-view/Classes/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/berkley/project/iphone/camera-view/Classes/FlipsideView.m282107957#282107957#0(0"0(0#0#64"/Users/berkley/project/iphone/camera-view/Classes/FlipsideView.m4300885448#1861"    cd /Users/berkley/project/iphone/camera-view    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-generated-files.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-own-target-headers.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-all-target-headers.hmap -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-project-headers.hmap -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -I/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/include -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources/armv6 -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch -c /Users/berkley/project/iphone/camera-view/Classes/FlipsideView.m -o /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideView.o0#
+
+CCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideViewController.o /Users/berkley/project/iphone/camera-view/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282107957.206461
+e282107957.283380
+r1
+xCompileC
+xbuild/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/berkley/project/iphone/camera-view/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/berkley/project/iphone/camera-view/Classes/FlipsideViewController.m282107957#282107957#0(0"0(0#0#74"/Users/berkley/project/iphone/camera-view/Classes/FlipsideViewController.m4300885448#1881"    cd /Users/berkley/project/iphone/camera-view    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-generated-files.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-own-target-headers.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-all-target-headers.hmap -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-project-headers.hmap -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -I/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/include -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources/armv6 -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch -c /Users/berkley/project/iphone/camera-view/Classes/FlipsideViewController.m -o /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainView.o /Users/berkley/project/iphone/camera-view/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282107957.112967
+e282107957.206322
+r1
+xCompileC
+xbuild/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainView.o
+x/Users/berkley/project/iphone/camera-view/Classes/MainView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/berkley/project/iphone/camera-view/Classes/MainView.m282107957#282107957#0(0"0(0#0#60"/Users/berkley/project/iphone/camera-view/Classes/MainView.m4300885448#1853"    cd /Users/berkley/project/iphone/camera-view    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-generated-files.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-own-target-headers.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-all-target-headers.hmap -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-project-headers.hmap -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -I/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/include -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources/armv6 -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch -c /Users/berkley/project/iphone/camera-view/Classes/MainView.m -o /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainView.o0#
+
+CCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainViewController.o /Users/berkley/project/iphone/camera-view/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282107957.191463
+e282107957.443254
+r1
+xCompileC
+xbuild/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainViewController.o
+x/Users/berkley/project/iphone/camera-view/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/berkley/project/iphone/camera-view/Classes/MainViewController.m282107957#282107957#0(0"0(0#0#70"/Users/berkley/project/iphone/camera-view/Classes/MainViewController.m4300885448#1873"    cd /Users/berkley/project/iphone/camera-view    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-generated-files.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-own-target-headers.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-all-target-headers.hmap -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-project-headers.hmap -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -I/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/include -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources/armv6 -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch -c /Users/berkley/project/iphone/camera-view/Classes/MainViewController.m -o /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/camera_viewAppDelegate.o /Users/berkley/project/iphone/camera-view/Classes/camera_viewAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282107956.665829
+e282107957.191361
+r1
+xCompileC
+xbuild/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/camera_viewAppDelegate.o
+x/Users/berkley/project/iphone/camera-view/Classes/camera_viewAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/berkley/project/iphone/camera-view/Classes/camera_viewAppDelegate.m282107956#282107957#0(0"0(0#0#74"/Users/berkley/project/iphone/camera-view/Classes/camera_viewAppDelegate.m4300885448#1881"    cd /Users/berkley/project/iphone/camera-view    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-generated-files.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-own-target-headers.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-all-target-headers.hmap -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-project-headers.hmap -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -I/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/include -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources/armv6 -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch -c /Users/berkley/project/iphone/camera-view/Classes/camera_viewAppDelegate.m -o /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/camera_viewAppDelegate.o0#
+
+CCompileC build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/main.o /Users/berkley/project/iphone/camera-view/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282107956.664561
+e282107957.052782
+r1
+xCompileC
+xbuild/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/main.o
+x/Users/berkley/project/iphone/camera-view/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/berkley/project/iphone/camera-view/main.m282107956#282107957#0(0"0(0#0#48"/Users/berkley/project/iphone/camera-view/main.m4300885448#1837"    cd /Users/berkley/project/iphone/camera-view    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-generated-files.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-own-target-headers.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-all-target-headers.hmap -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-project-headers.hmap -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -I/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/include -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources/armv6 -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch -c /Users/berkley/project/iphone/camera-view/main.m -o /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/berkley/project/iphone/camera-view/FlipsideView.xib
+r0
+
+CCompileXIB /Users/berkley/project/iphone/camera-view/MainView.xib
+r0
+
+CCompileXIB /Users/berkley/project/iphone/camera-view/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphoneos/camera-view.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+r0
+
+CGenerateDSYMFile /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app.dSYM /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view
+s282107958.102351
+e282107958.268545
+r1
+xGenerateDSYMFile
+x/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app.dSYM
+x/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/camera-view.app.dSYM build/Debug-iphoneos/camera-view.app/camera-view282107958#282107958#0(0"0(0#0#90"/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view33214240531742832#383"    cd /Users/berkley/project/iphone/camera-view    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view -o /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app.dSYM0#
+
+CLd /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view normal armv6
+s282107957.443333
+e282107958.102237
+r1
+xLd
+x/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view
+xnormal
+xarmv6
+lSLF07#2@95"Link /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view282107957#282107958#0(0"0(0#0#0"4300885448#924"    cd /Users/berkley/project/iphone/camera-view    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -L/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -filelist /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/Objects-normal/armv6/camera-view.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/camera-view0#
+
+CProcessInfoPlistFile /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/Info.plist camera_view-Info.plist
+s282107952.812355
+e282107952.898552
+r1
+xProcessInfoPlistFile
+x/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/Info.plist
+xcamera_view-Info.plist
+lSLF07#2@30"Process camera_view-Info.plist282107952#282107952#0(0"0(0#0#64"/Users/berkley/project/iphone/camera-view/camera_view-Info.plist27584981513797680#590"    cd /Users/berkley/project/iphone/camera-view    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility camera_view-Info.plist -genpkginfo /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/ResourceRules.plist -o /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/Info.plist0#
+
+CProcessPCH /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch.gch camera_view_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282107952.898927
+e282107956.664353
+r1
+xProcessPCH
+x/var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch.gch
+xcamera_view_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile camera_view_Prefix.pch282107952#282107956#0(0"0(0#0#64"/Users/berkley/project/iphone/camera-view/camera_view_Prefix.pch4300885448#1728"    cd /Users/berkley/project/iphone/camera-view    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-generated-files.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-own-target-headers.hmap -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-all-target-headers.hmap -iquote /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view-project-headers.hmap -F/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos -I/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/include -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources/armv6 -I/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/DerivedSources -c /Users/berkley/project/iphone/camera-view/camera_view_Prefix.pch -o /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/camera_view_Prefix-bzvbkxhkhvacygfzdrdmahftsvop/camera_view_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/berkley/Library/MobileDevice/Provisioning Profiles/FD58C3C9-A138-44C0-85B0-95B3C0676989.mobileprovision" /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view.xcent
+s282107958.314403
+e282107958.352452
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+x/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view.xcent
+lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view.xcent282107958#282107958#0(0"0(0#0#116"/Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view.xcent4300885448#450"    cd /Users/berkley/project/iphone/camera-view    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/berkley/project/iphone/camera-view/build/camera-view.build/Debug-iphoneos/camera-view.build/camera-view.xcent0#
+
+CTouch /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app
+s282107958.268746
+e282107958.314301
+r1
+xTouch
+x/Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app
+lSLF07#2@84"Touch /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app282107958#282107958#0(0"0(0#0#0"4300885448#274"    cd /Users/berkley/project/iphone/camera-view    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkley/project/iphone/camera-view/build/Debug-iphoneos/camera-view.app0#
+
