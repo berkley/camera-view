@@ -10,9 +10,11 @@
 
 
 @interface CameraViewDelegate : NSObject <UIActionSheetDelegate> {
-
+  UIViewController *viewController;
 }
 
-- (void)showActionSheet:(UIView *)view;
+@property (nonatomic, retain) UIViewController *viewController;
+
+- (void)showActionSheet;
 
 @end

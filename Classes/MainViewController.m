@@ -23,21 +23,25 @@
  // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
  - (void)viewDidLoad 
 {
-	 [super viewDidLoad];
-	 UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect]; 
-	 [button setTitle: @"Show the fucking camera" forState:UIControlStateNormal];
-	 [button addTarget:self action:@selector(handleButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-	 button.frame = CGRectMake(50,	100, 50, 50);
-	 [button sizeToFit];
+	[super viewDidLoad];
+	UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect]; 
+	[button setTitle: @"Show the camera" forState:UIControlStateNormal];
+	[button addTarget:self action:@selector(handleButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+	button.frame = CGRectMake(50,	100, 50, 50);
+	[button sizeToFit];
 	 
-	 [self.view addSubview:button];
-	 
+	[self.view addSubview:button];
+
+	CameraViewDelegate *cvDelegate = [[CameraViewDelegate alloc]init];
+	cvDelegate.viewController = self;
+	[cvDelegate showActionSheet];
  }
  
 - (void)handleButtonClick:(id)sender
 {
 	CameraViewDelegate *cvDelegate = [[CameraViewDelegate alloc]init];
-  [cvDelegate showActionSheet:(UIView*)self.view];
+	cvDelegate.viewController = self;
+  [cvDelegate showActionSheet];
 }
 
 /*
