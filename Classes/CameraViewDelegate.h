@@ -6,16 +6,23 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CameraViewProtocol.h";
+
+@protocol CameraViewProtocol
+
+- (void)didFinishPickingVideo:(NSURL *)url;
+
+@end
+
 
 @interface CameraViewDelegate : NSObject <UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate> {
   UIViewController *viewController;
+	id <CameraViewProtocol> delegate;
 }
 
 @property (nonatomic, retain) UIViewController *viewController;
 @property(nonatomic,assign) id <CameraViewProtocol> delegate;
 
 
-- (void)showActionSheet;
+- (BOOL)showActionSheet;
 
 @end
